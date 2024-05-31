@@ -4,7 +4,7 @@ let sign = ''; // Знак операции
 let finish = false;
 
 const digit = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.']; // Массив значений
-const action = ['-', '+', 'X', '/', '%']; // Массив операций
+const action = ['-', '+', 'X', '/', '%', '+/-']; // Массив операций
 
 const out = document.querySelector('.calc-screen p'); // Экран
 
@@ -76,6 +76,9 @@ document.querySelector('.buttons').onclick = (event) => {
                     break;
                 case "%":
                     a = a * b / 100;
+                    break;
+                case "+/-":
+                    a = a * -1;
                     break;
             }
             finish = true;

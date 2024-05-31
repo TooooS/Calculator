@@ -6,7 +6,7 @@
     border-radius: 20px;
     background: #000;
     color: #fff;
-    font-family: Arial;
+    font-family: Helvetica;
     padding: 18px;
     box-shadow: 4px 4px 4px #4f4f4f;
 }
@@ -45,7 +45,7 @@
     background: #333;
     text-align: center;
     line-height: 60px;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     cursor: pointer;
     user-select: none;
 }
@@ -66,6 +66,7 @@
 
 .btn.bg-grey {
     background: #a6a6a6;
+    color: #000;
 }
 
 .btn.bg-orange {
